@@ -1,5 +1,5 @@
 import './App.css';
-import {useState} from "react";
+import { useState } from "react";
 
 let timeHandler;
 let temp = 0;
@@ -22,7 +22,7 @@ const stop = () => {
 
 const NewComponent = () => {
   const [time, setTime] = useState(0);
-  return <div className="App-header">
+  return <div className="main">
     <h1>Timer</h1>
     <p>{time}</p>
     <div style={{display: "flex"}}>
